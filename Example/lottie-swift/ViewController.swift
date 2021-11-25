@@ -17,7 +17,9 @@ class ViewController: UIViewController {
     super.viewDidLoad()
     
     let animation = Animation.named("LottieLogo1", subdirectory: "TestAnimations")
-    
+    if (true){
+      print ("Test")
+    }
     animationView.animation = animation
     animationView.contentMode = .scaleAspectFit
     view.addSubview(animationView)
